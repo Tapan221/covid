@@ -14,8 +14,8 @@ import com.example.covid19.model.Donation;
 import com.example.covid19.service.CurdService;
 
 @RestController
-//@CrossOrigin(origins = "http://covid-helping-hand.s3-website.ap-south-1.amazonaws.com")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://covid-helping-hand.s3-website.ap-south-1.amazonaws.com")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/apis")
 public class Controller {
 	

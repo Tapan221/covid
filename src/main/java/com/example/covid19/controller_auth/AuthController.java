@@ -11,8 +11,8 @@ import com.example.covid19.model_auth.User;
 import com.example.covid19.service_auth.AuthService;
 
 @RestController
-//@CrossOrigin(origins = "http://covid-helping-hand.s3-website.ap-south-1.amazonaws.com")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://covid-helping-hand.s3-website.ap-south-1.amazonaws.com")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api")
 public class AuthController {
 	
